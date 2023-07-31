@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Data for Education Systems
+description: A guide to designing and implementing better data systems for education
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://data4edu.github.io
+
+logo: "/assets/images/bar-chart-line.svg"
+
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
