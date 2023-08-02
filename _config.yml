@@ -2,10 +2,16 @@ title: Data for Education Systems
 description: A guide to designing and implementing better data systems for education
 theme: just-the-docs
 
-url: https://data4edu.github.io
+url: https://data4edu.systems
 
-logo: "/assets/images/bar-chart-line.svg"
-
+favicon_ico: /assets/images/D4ES.png
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  View on GitHub: https://github.com/data4edu/data4edu.github.io/
+aux_links_new_tab: true
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e, %Y"
+
+plugins:
+  - jekyll-target-blank
