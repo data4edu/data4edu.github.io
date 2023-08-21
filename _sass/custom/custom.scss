@@ -1,0 +1,10 @@
+#title-sitename {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 576px) {
+  $font-factor: 1.1;
+  #title-sitename {
+    font-size: 1rem;
+  }
+}
