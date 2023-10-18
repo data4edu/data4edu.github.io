@@ -39,7 +39,7 @@ popovers.forEach(popover => {
 
 function toggleTooltip(el) {
   if (el.classList.contains('tooltip-visible')) {
-    const tooltip = el.querySelector('.tooltip');
+    const tooltip = document.body.querySelector('.tooltip');
     console.log(tooltip);
     tooltip.remove();
     el.classList.remove('tooltip-visible');
@@ -48,7 +48,7 @@ function toggleTooltip(el) {
     const tooltip = document.createElement('div');
     tooltip.innerText = tooltipText;
     tooltip.classList.add('tooltip');
-    el.appendChild(tooltip);
+    document.body.appendChild(tooltip);
     // Pass the button, the tooltip, and some options, 
     // and Popper will do the magic positioning for you:
     Popper.createPopper(el, tooltip, {
