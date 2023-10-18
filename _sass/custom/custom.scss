@@ -12,3 +12,18 @@
 blockquote {
   margin-bottom: 1rem;
 }
+
+.tooltip {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  max-width: 200px;
+}
+
+.popover {
+  text-decoration: underline dashed #7253ed;
+  cursor: pointer;
+  color: #7253ed !important;
+}

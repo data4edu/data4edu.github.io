@@ -21,8 +21,8 @@ Planning to collect data?
   - [ ] Are the questions clearly worded and simple to understand? Are you sure there is no question that could confuse the reader?  
   - [ ] Have you asked someone who is not associated with this project to read the questionnaire? Did they understand how to answer each and every question on their own without your help?  
   - [ ] Are you 110% sure that your questionnaire is easy to understand?  
-  - [ ] Have you checked that the logic for response validation and form flow is working as intended?  
-- [ ] Do you have an estimate for how many responses you will need for your work? Is there an estimate available for different geographies and groups?  
+  - [ ] Have you checked that the logic for <span class="popover" tooltip-title="For example, limiting the number of characters in a text input or limiting the input to only integers greater than 10">response validation</span> and <span class="popover" tooltip-title="For example, moving from one section to another based on the answer to a question">form flow</span> is working as intended?  
+- [ ] Do you have an estimate for how many responses you will need for your work? Is there an estimate available for different <span class="popover" tooltip-title="blocks, circles, clusters, districts, states">geographies</span> and <span class="popover" tooltip-title="teachers, head teachers, school inspectors etc. or government schools, private schools, madrasahs etc.">groups</span>?  
   - [ ] Have you decided if the data will be filled by enumerators or by respondents directly?  
   - [ ] Have you figured out how the enumerators will be trained in data collection methods, questionnaire administration, and ethical conduct?  
   - [ ] Have you figured out how you are going to share the questionnaire/form link with all the respondents/enumerators?  
