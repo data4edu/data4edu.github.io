@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-nav_order: 2
+nav_order: 4
 ---
 
 # About This Website
@@ -24,7 +24,7 @@ We believe these tools can serve various stakeholders - from high level policy m
 This website was developed by a core group formed under a grant by USAID, Mozilla Foundation and Aapti Insitute. You can read more about the grant on [Aapti Institute's blog](https://aapti.in/blog/usaid-mozilla-aapti-institute-announce-working-groups-to-strengthen-data-ecosystems-in-indian-schools/).
 
 The core group consists of:
-1. **Subir Shukla**
-2. **Deepti Srivastava**
-3. **Gurjot Singh Sidhu**
-4. **Ritwik Shukla**
+1. [**Subir Shukla**](https://www.linkedin.com/in/subir-shukla-13759b31/): A former Educational Quality Advisor to the Government of India, he has been engaging with national and state governments on large-scale implementation of quality improvement efforts across the country for well over three decades.
+2. **Deepti Srivastava**: After working towards the education and rehabilitation of destitute urban children for several years, she now has extensive experience in designing and facilitating large-scale assessments and research in the education sector.
+3. [**Gurjot Singh Sidhu**](https://thatgurjot.com): Having worked with international development agencies, NGOs and state departments, he has been supporting the design and development of state data systems and building the capacity of those involved.
+4. [**Ritwik Shukla**](https://www.linkedin.com/in/ritwiks-/): With several years of extensive research experience on health and education, he has been working with state governments to enable policy and decision makers to use their data better

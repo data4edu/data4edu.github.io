@@ -2,6 +2,7 @@
 title: Data Collection
 layout: default
 parent: Checklists
+grand_parent: Resources
 nav_order: 1
 last_modified_date: 2023-10-18
 ---
