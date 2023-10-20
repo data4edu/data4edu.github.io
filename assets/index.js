@@ -35,19 +35,24 @@ function toggleCheckbox(el) {
 const popovers = document.querySelectorAll('.popover');
 popovers.forEach(popover => {
   popover.setAttribute('onclick', 'toggleTooltip(this)');
+  popover.id = 'popover-' + Math.floor(Math.random() * 1000000);
 });
 
-function toggleTooltip(el) {
-  if (el.classList.contains('tooltip-visible')) {
-    const tooltip = document.body.querySelector('.tooltip');
-    console.log(tooltip);
-    tooltip.remove();
+const tooltipTimers = [];
+
+function toggleTooltip(el, action) {
+  if (el.classList.contains('tooltip-visible') || action === 'remove') {
+    const tooltip = document.body.querySelector('#tooltip-' + el.id);
+    if (tooltip) { tooltip.remove(); }
     el.classList.remove('tooltip-visible');
   } else {
     const tooltipText = el.getAttribute('tooltip-title');
     const tooltip = document.createElement('div');
     tooltip.innerText = tooltipText;
     tooltip.classList.add('tooltip');
+    tooltip.classList.add('show');
+    tooltip.setAttribute('role', 'tooltip');
+    tooltip.setAttribute('id', 'tooltip-' + el.id);
     document.body.appendChild(tooltip);
     // Pass the button, the tooltip, and some options, 
     // and Popper will do the magic positioning for you:
@@ -57,8 +62,13 @@ function toggleTooltip(el) {
     el.classList.add('tooltip-visible');
     
     const removeTooltipTimer = setTimeout(() => {
-      toggleTooltip(el); 
+      toggleTooltip(el, 'remove');
     }, 4000);
+
+    if (tooltipTimers.length > 50) {
+      tooltipTimers.shift();
+    }
+    tooltipTimers.push(removeTooltipTimer);
   }
 
 }

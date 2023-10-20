@@ -20,10 +20,16 @@ blockquote {
   border-radius: 4px;
   font-size: 13px;
   max-width: 200px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.show {
+  opacity: 1;
 }
 
 .popover {
-  text-decoration: underline dashed #7253ed;
+  border-bottom: 1px dashed #7253ed;
   cursor: pointer;
   color: #7253ed !important;
 }
