@@ -1,10 +1,11 @@
 ---
-title: Attendance
+title: Analysing Student Attendance
 layout: default
 has_toc: false
 parent: Access and Retention
 grand_parent: Data to Action
 last_modified_date: 2023-10-18
+nav_exclude: true
 ---
 
 # Which data sets can tell me which groups of students are attending school less and by how much?

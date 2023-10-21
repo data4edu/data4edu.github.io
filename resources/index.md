@@ -5,6 +5,7 @@ nav_order: 3
 has_children: true
 has_toc: false
 last_modified_date: 2023-08-02
+search_exclude: true
 ---
 
 # Resources

@@ -70,5 +70,15 @@ function toggleTooltip(el, action) {
     }
     tooltipTimers.push(removeTooltipTimer);
   }
+}
 
+// Word Cloud Search
+function searchKeyword(el) {
+  const keyword = el.innerText;
+  const mainHeader = document.getElementById('main-header');
+  const searchInput = document.getElementById('search-input');
+  searchInput.value = keyword;
+  mainHeader.classList.add('nav-open');
+  searchInput.focus();
+  // document.documentElement.classList.add('search-active');
 }
