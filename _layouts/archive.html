@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{{ content }}
+
+
+<section>
+  <h3>Access and Retention</h3>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.categories contains 'access-and-retention' %}
+        <li><a href={{site.url}}{{page.url}}>{{page.description}}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h3>Equity</h3>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.categories contains 'equity' %}
+        <li><a href={{site.url}}{{page.url}}>{{page.description}}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h3>Planning and Monitoring</h3>
+  <ul>
+    {% for page in site.pages %}
+      {% if page.categories contains 'planning-and-monitoring' %}
+        <li><a href={{site.url}}{{page.url}}>{{page.description}}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <h3>Quality</h3>
+  <ul>
+  {% for page in site.pages %}
+    {% if page.categories contains 'quality' %}
+      <li><a href={{site.url}}{{page.url}}>{{page.description}}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</section>

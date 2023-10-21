@@ -1,11 +1,16 @@
 ---
 title: PTR Useful Information
+description: What useful information can I learn from PTR data?
 layout: default
 has_toc: false
 parent: Access and Retention
 grand_parent: Data to Action
 last_modified_date: 2023-10-21
 nav_exclude: true
+categories: [access-and-retention, data-to-action]
+collections:
+  - data-to-action
+  - faqs
 ---
 
 # What useful information can I learn from PTR data?

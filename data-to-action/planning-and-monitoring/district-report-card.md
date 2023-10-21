@@ -1,11 +1,16 @@
 ---
 title: District Report Card
+description: How can I create a District Report Card based on key performance indicators?
 layout: default
 has_toc: false
 parent: Planning and Monitoring
 grand_parent: Data to Action
 last_modified_date: 2023-10-21
 nav_exclude: true
+categories: [planning-and-monitoring, data-to-action]
+collections:
+  - data-to-action
+  - faqs
 ---
 
 # How can I create a District Report Card based on key performance indicators?

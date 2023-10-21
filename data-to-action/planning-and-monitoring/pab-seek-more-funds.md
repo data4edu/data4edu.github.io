@@ -1,11 +1,16 @@
 ---
 title: PAB Seek More Funds
+description: How can I use PAB data to show that my state should be provided more funds?
 layout: default
 has_toc: false
 parent: Planning and Monitoring
 grand_parent: Data to Action
 last_modified_date: 2023-10-21
 nav_exclude: true
+categories: [planning-and-monitoring, data-to-action]
+collections:
+  - data-to-action
+  - faqs
 ---
 
 # How can I use PAB data to show that my state should be provided more funds?

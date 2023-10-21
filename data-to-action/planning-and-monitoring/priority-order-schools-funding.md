@@ -1,11 +1,16 @@
 ---
 title: Priority Order of Schools for Funding
+description: How do I make a priority order of schools within my state for funding?
 layout: default
 has_toc: false
 parent: Planning and Monitoring
 grand_parent: Data to Action
 last_modified_date: 2023-10-21
 nav_exclude: true
+categories: [planning-and-monitoring, data-to-action]
+collections:
+  - data-to-action
+  - faqs
 ---
 
 # How do I make a priority order of schools within my state for funding?
