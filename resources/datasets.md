@@ -2,7 +2,6 @@
 title: Education Datasets
 layout: default
 parent: Resources
-nav_order: 2
 last_modified_date: 2023-08-02
 ---
 

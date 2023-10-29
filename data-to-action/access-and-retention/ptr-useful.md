@@ -29,6 +29,8 @@ If we look at the PTR figures only, we can see that School 1 has 30 students per
 {: .note }
 PTR figures can be helpful but should not be the only metric when ascertaining a school or region’s educational status.
 
+Another aspect to PTR that becomes relevant at secondary and higher secondary levels is the subject-wise PTR. For example, a higher secondary school with a good overall PTR may not have enough teachers available for all subjects.
+
 Nonetheless, PTR can be a helpful metric. Here are a few ways in which PTR can be used:
 1. Examining PTR figures can aid in resource allocation decisions. If a school or district/state consistently has a high PTR, it may be an indicator that more resources should be allocated to hiring additional teachers or building new schools to reduce overcrowding. Conversely, areas with a low PTR may consider reallocating resources to address other educational needs.
 2. PTR data can inform long-term infrastructure planning. For instance, if an area experiences a consistent increase in student enrollment, it may be necessary to build new schools or expand existing ones to maintain an acceptable PTR and ensure a high standard of education.

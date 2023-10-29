@@ -6,6 +6,7 @@ has_children: false
 parent: Data to Action
 last_modified_date: 2023-10-21
 search_exclude: true
+nav_order: 6
 ---
 
 # Questions relevant at the Block/Cluster/Circle level

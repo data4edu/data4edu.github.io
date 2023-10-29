@@ -2,7 +2,6 @@
 title: Principles and Good Practices
 layout: default
 parent: Resources
-nav_order: 3
 last_modified_date: 2023-08-02
 ---
 
