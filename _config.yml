@@ -3,8 +3,11 @@ description: A guide to designing and implementing better data systems for educa
 theme: just-the-docs
 lang: en_IN
 url: https://data4edu.systems
-categories: [data-to-action]
+repository: data4edu/data4edu.github.io
+permalink: pretty
+markdown: kramdown
 
+categories: [data-to-action]
 favicon_ico: /assets/images/D4ES.png
 
 aux_links:
@@ -38,7 +41,7 @@ search:
   heading_level: 4
   # Maximum amount of previews per search result
   # Default: 3
-  previews: 5
+  previews: 10
   # Maximum amount of words to display before a matched word in the preview
   # Default: 5
   preview_words_before: 5
@@ -55,3 +58,11 @@ search:
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
   button: false
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/data4edu/data4edu.github.io/" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately

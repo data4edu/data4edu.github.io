@@ -1,7 +1,6 @@
 ---
 title: About
 layout: about
-nav_order: 4
 ---
 
 # About This Website

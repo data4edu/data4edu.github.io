@@ -11,6 +11,10 @@ search_exclude: true
 # Data to Action
 {: .no_toc }
 
+1. [**Why should I use data for planning?**]()
+2. [**Why should historical data records be maintained?**]()
+3. [**Why is there so much pressure in the system to collect data?**]()
+
 ## Categories
 1. [**Access and Retention**](./access-and-retention): For questions about using dropout data to set a priority order of schools that should be upgraded to a higher level, and which data sets can tell you which groups of students are attending school less and by how much etc.
 2. [**Equity**](./equity): For questions about using dropout data to identify which groups of students are more likely to drop out, and by how much.
@@ -20,5 +24,5 @@ search_exclude: true
 ## Geographies
 1. [**State level**](./state-level/): View questions in various categories relevant at the State level.
 2. [**District level**](./district-level/): View questions in various categories relevant at the District level.
-3. [**Block/Circle/Cluster level**](./sub-district-level/): View questions in various categories relevant at the Block/Circle/Cluster level.
+3. [**Block/Circle/Cluster level**](./sub-district-level/): View questions in various categories relevant at the sub-district level.
 4. [**School level**](./school-level/): View questions in various categories relevant at the School level.
