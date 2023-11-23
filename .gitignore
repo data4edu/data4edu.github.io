@@ -11,3 +11,7 @@ vendor/
 
 .DS_Store
 .obsidian
+/assets/images/large/*
+
+whole_text.md 
+create_files.js

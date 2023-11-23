@@ -17,7 +17,7 @@ collections:
 
 # What can I learn about my state from trends in the Gross Enrolment Ratio (GER)?
 
-Gross Enrolment Ratio (GER) is a measure of the total enrolment at a particular level in education, irrespective of age, expressed as percentage of population of the official age group corresponding to that level. For example:
+Gross Enrolment Ratio (GER) is a measure of the total enrolment at a particular level in education, irrespective of age, expressed as percentage of population of the official age group corresponding to that level. For example,
 
 $$
 \begin{aligned}
