@@ -1,8 +1,11 @@
 ---
 title: Principles and Good Practices
+description: Principles and Good Practices
 layout: default
 parent: Resources
 last_modified_date: 2023-08-02
+categories:
+  - resource
 ---
 
 # Principles and Good Practices

@@ -10,11 +10,25 @@ nav_order: 2
 ---
 
 # Questions related to Equity
+Equity in education is the central theme of this category. It emphasizes the collection and analysis of data related to diverse student demographics, including economic status (EWS families), gender, migration background, social categories, disabilities, and entitlements for specific groups. The aim is to use this information to promote inclusivity, address disparities, and enhance the quality of education at both individual schools and broader administrative levels.
 
 ## State level
+{% for page in site.pages %}
+  {% if page.categories contains 'equity' and page.categories contains 'state' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}
 
-## District level
-
-## Block/Circle/Clusterlevel
+## District, Block or Circle level
+{% for page in site.pages %}
+  {% if page.categories contains 'equity' and page.categories contains 'district' or page.categories contains 'block' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}
 
 ## School level
+{% for page in site.pages %}
+  {% if page.categories contains 'equity' and page.categories contains 'school' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}

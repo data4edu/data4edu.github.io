@@ -1,8 +1,11 @@
 ---
 title: Data Management
+description: Taking a Macroscopic Perspective of Data Management
 layout: default
 parent: Resources
 last_modified_date: 2023-10-29
+categories:
+  - resource
 ---
 {: no_toc }
 

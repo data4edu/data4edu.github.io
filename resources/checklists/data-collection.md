@@ -1,10 +1,13 @@
 ---
 title: Data Collection
+description: Checklist for Data Collection
 layout: default
 parent: Checklists
 grand_parent: Resources
-nav_order: 1
 last_modified_date: 2023-10-18
+categories:
+  - checklist
+  - resource
 ---
 
 # Checklist for Data Collection

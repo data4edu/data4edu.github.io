@@ -1,13 +1,16 @@
 ---
 title: Data Entry with Google Sheets
+description: Checklist for Data Entry with Google Sheets
 layout: default
 parent: Checklists
 grand_parent: Resources
-nav_order: 2
 last_modified_date: 2023-10-18
+categories:
+  - checklist
+  - resource
 ---
 
-# Data Entry with Google Sheets
+# Checklist for Data Entry with Google Sheets
 
 So you have decided to create a format in a Google Sheets file and have people fill data by collaborating in the same file. Follow this checklist to make sure you have covered all bases!
 

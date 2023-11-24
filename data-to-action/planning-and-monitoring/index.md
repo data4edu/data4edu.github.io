@@ -10,14 +10,25 @@ nav_order: 3
 ---
 
 # Questions related to Planning and Monitoring
+Planning and monitoring involve the strategic use of data to develop, assess, and refine educational plans. The questions in this category cover topics such as creating district-level report cards, making school plans public, using data to secure additional funding, involving school management committees, and ensuring the accuracy of data at various administrative levels. The focus is on leveraging data for effective decision-making, resource allocation, and continuous improvement.
 
 ## State level
-1. [How can I use PAB data to show that my state should be provided more funds?](./pab-seek-more-funds)
-2. [How do I make a priority order of schools within my state for funding?](./priority-order-schools-funding)
-3. [How can I create a District Report Card based on key performance indicators?](./district-report-card)
+{% for page in site.pages %}
+  {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'state' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}
 
-## District level
-
-## Block/Circle/Clusterlevel
+## District, Block or Circle level
+{% for page in site.pages %}
+  {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'district' or page.categories contains 'block' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}
 
 ## School level
+{% for page in site.pages %}
+  {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'school' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}})
+  {% endif %}
+{% endfor %}
