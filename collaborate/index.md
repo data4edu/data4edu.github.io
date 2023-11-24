@@ -1,11 +1,10 @@
 ---
-title: Contribute
+title: Collaborate
 layout: about
 ---
 
 # Collaborate with us!
-
-This website is a work in progress. We welcome contributions from the community. 
+This website is a work in progress. We welcome contributions from the larger education community to make it more useful for everyone.
 
 You can contribute by:
 1. Suggesting questions and resources that can be added to the website
@@ -14,7 +13,10 @@ You can contribute by:
 4. Sharing any other relevant experiences or resources that you think would be useful for the education community in India
 
 ## How to contribute
-The easiest way to contribute is by filling the [feedback form below](#share-feedback) or by sending us an email at [contact@data4edu.systems](mailto:contact@data4edu.systems). We would love to hear from you. Please mention the page's link in your email if you are suggesting changes to a specific page.
+The easiest way to contribute is by filling the [feedback form below](#share-feedback) or by sending us an email at [contact@data4edu.systems](mailto:contact@data4edu.systems). 
+
+{: .note }
+Please mention the page's link in your email if you are suggesting changes to a specific page.
 
 If you are familiar with GitHub, you can click on the "Edit this page on GitHub" link at the bottom of each page to suggest changes to the content directly. You can also create a new issue in the website's [repository on GitHub](https://github.com/data4edu/data4edu.github.io/) to share your ideas.
 
@@ -26,10 +28,10 @@ Have something to share with us? Could be an error in our content, a suggestion 
     <p><strong>Please share your email address if you would like us to get back to you.</strong></p>
     <input type="email" id="user_email" name="user_email" style="width: 100%">
     
-    <p><strong>What would you like to share with us?</strong></p>
-    <textarea id="comment" name="comment" maxlength="200" style="width: 100%"></textarea>
+    <p><strong>What would you like to share with us?<span style="color: red"><sup>*</sup></span></strong></p>
+    <textarea id="comment" name="comment" maxlength="400" style="width: 100%"></textarea>
     <br/>
-    <small><em>Max. 200 characters only. If you want to say more, send us an email!</em></small>
+    <small><em>Max. 400 characters only. If you need more, send us an email!</em></small>
     
     <p class="center">
       <button id="share-button" class="btn btn-primary fs-5" onclick="addComment()">Share feedback</button>

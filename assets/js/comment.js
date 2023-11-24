@@ -1,11 +1,19 @@
 function addComment() {
   if (document.getElementById("comment").value == '') {
+    document.getElementById('share-button').disabled = true;
+    document.getElementById('submission-text').innerText = "Please fill all the mandatory fields before submitting.";
+    document.getElementById('submission-text').classList.remove('d-none');
+    setTimeout(function(){
+      document.getElementById('share-button').disabled = false;
+      document.getElementById("submission-text").value = "Thank you! We have received your feedback.";
+      document.getElementById('submission-text').classList.add('d-none');
+    }, 3000);
     return;
   }
-  
+
   var payload = {
       "email": document.getElementById("user_email").value,
-      "url": window.location.href,
+      "url": localStorage.getItem('url'),
       "comment": document.getElementById("comment").value
   };
 

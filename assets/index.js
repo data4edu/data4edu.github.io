@@ -1,10 +1,10 @@
 // local storage
 const localStorage = window.localStorage;
 
-function changeFilter() {
-  const homepageFilterSelector = document.getElementById('homepage-filter-selector');
-  localStorage.setItem('homepage-filter', homepageFilterSelector.value);
-  console.log(localStorage)
+// store the url of the current page in session storage
+const urlPath = window.location.pathname;
+if (urlPath !== '/collaborate/') {
+  localStorage.setItem('url', urlPath);
 }
 
 // Checkboxes
@@ -72,13 +72,47 @@ function toggleTooltip(el, action) {
   }
 }
 
+
+// Add event listener to the search input
+const searchInput = document.getElementById('search-input');
+const searchIconLabel = document.querySelector('.search-label');
+function figureSearchOut() {
+  if (searchInput.value === '') {
+    clearSearch();
+  } else {
+    replaceSearchIcon();
+  }
+}
+searchInput.addEventListener('focus', (event) => {figureSearchOut();});
+searchInput.addEventListener('input', (event) => {figureSearchOut();});
+
 // Word Cloud Search
 function searchKeyword(el) {
   const keyword = el.innerText;
   const mainHeader = document.getElementById('main-header');
-  const searchInput = document.getElementById('search-input');
   searchInput.value = keyword;
   mainHeader.classList.add('nav-open');
   searchInput.focus();
   // document.documentElement.classList.add('search-active');
+}
+
+// Replace search icon in the search bar with a close icon
+function replaceSearchIcon() {
+  console.log("search input is in focus");
+  // remove the existing icon
+  searchIconLabel.firstElementChild.remove();
+  // add close function
+  searchIconLabel.setAttribute('onclick', 'clearSearch()');
+  // add the close icon
+  searchIconLabel.innerHTML = `<svg id="close-icon" class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>`
+}
+
+function clearSearch() {
+  console.log("clear search");
+  searchInput.value = '';
+  searchIconLabel.removeAttribute('onclick');
+  // remove the close icon
+  searchIconLabel.firstElementChild.remove();
+  // bring back the search icon
+  searchIconLabel.innerHTML = `<svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg>`
 }
