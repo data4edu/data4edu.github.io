@@ -10,5 +10,8 @@ last_modified_date: 2023-10-18
 # Checklists
 So you are going to build a data system for education? Here are some checklists to help you think through the process.
 
-- [Data Collection](./data-collection)
-- [Data Entry with Google Sheets](./data-entry-google-sheets)
+{% for page in site.pages %}
+  {% if page.categories contains 'checklist' %}
+  -  [{{page.description}}]({{site.url}}{{page.url}}) – {{page.lede}}
+  {% endif %}
+{% endfor %}

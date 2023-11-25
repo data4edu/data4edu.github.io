@@ -1,6 +1,7 @@
 ---
 title: Case Study 2
-description: "Case Study: The Role of Data in an Online Teacher Professional Development Programme"
+description: "Case Study: Using Performance Data to Enhance the Robustness in Government Systems and Data-based Decision Making"
+lede: "A case study on how data was used in a programme to improve learning outcomes in Uttar Pradesh."
 layout: default
 parent: Case Studies
 grand_parent: Resources

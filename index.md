@@ -5,6 +5,8 @@ nav_order: 1
 search_exclude: true
 ---
 
+![](/assets/images/D4ES%20-%20Landing%20Header.png)
+
 # Welcome to Data for Education Systems!
 
 This website is a dynamic and comprehensive guide for navigating the complexities of the Indian education landscape. Our mission is to empower stakeholders, like yourself, to transform data into impactful decisions that drive positive changes in education. Take the first step towards informed action by exploring the resources and questions tailored to your specific needs!

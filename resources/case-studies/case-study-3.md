@@ -1,6 +1,7 @@
 ---
 title: Case Study 3
 description: "Case Study: Assessment Data to inform Improvement in Learning Outcomes"
+lede: "A case study on how data was used in a programme to improve learning outcomes through a Graded Assessment test in Arunachal Pradesh."
 layout: default
 parent: Case Studies
 grand_parent: Resources

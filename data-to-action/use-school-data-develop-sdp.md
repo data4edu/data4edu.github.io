@@ -6,13 +6,13 @@ has_toc: false
 last_modified_date: 2023-11-24
 nav_exclude: true
 categories:
-  - quality
+  - planning-and-monitoring
   - state
   - data-to-action
   - district
   - block
 grand_parent: Data to Action
-parent: Quality
+parent: Planning and Monitoring
 ---
 # How can I use data from schools in my district to develop the SDP?
 
@@ -36,3 +36,7 @@ A strategy is an approach or a broader objective, which requires many smaller st
 Similarly, your strategy could be: provide on-site professional development inputs to improve teacher performance. The activities involved would be: use performance standards and indicators to assess current performance, assess needs through performance assessment and interaction with teachers, ask for BRC to arrange for workshop for teachers, observe and support teachers in real time in the the class, collect and share videos of good practices, organise peer-sharing meetings, and so on. 
 
 You will need many different kinds of data to know if these strategies and activities work. These could be: findings of teacher observation, attendance of teachers in related events, teacher response, shift in teacher performance, etc.
+
+{: .note }
+
+Read this: [How can I use SDP for developing the State Annual Work Plan and Budget (AWPB)?](/data-to-action/use-sdp-for-awpb/) to learn more about how to use SDP for AWPB.

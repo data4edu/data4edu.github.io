@@ -1,6 +1,7 @@
 ---
 title: Case Study 1
 description: "Case Study: The Role of Data in an Online Teacher Professional Development Programme"
+lede: "A case study on how data was used in an online teacher professional development programme of over one lakh teachers in Rajasthan."
 layout: default
 parent: Case Studies
 grand_parent: Resources

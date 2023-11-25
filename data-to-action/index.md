@@ -11,6 +11,8 @@ search_exclude: true
 # Data to Action
 {: .no_toc }
 
+![](/assets/images/Data%20to%20Action%20-%20Header.png)
+
 <details open markdown="block">
   <summary>
     Table of contents

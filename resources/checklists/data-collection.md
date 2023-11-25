@@ -1,6 +1,7 @@
 ---
 title: Data Collection
-description: Checklist for Data Collection
+description: "Checklist for Data Collection"
+lede: "A checklist to help you navigate the data collection process in a more robust manner."
 layout: default
 parent: Checklists
 grand_parent: Resources

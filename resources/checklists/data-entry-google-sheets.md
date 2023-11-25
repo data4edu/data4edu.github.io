@@ -1,6 +1,7 @@
 ---
 title: Data Entry with Google Sheets
-description: Checklist for Data Entry with Google Sheets
+description: "Checklist for Data Entry with Google Sheets"
+lede: "A checklist to ensure that data is entered in a consistent manner even when multiple people are entering data."
 layout: default
 parent: Checklists
 grand_parent: Resources

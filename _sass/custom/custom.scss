@@ -1,9 +1,14 @@
 .center {
-  text-align: center;
+  text-align: center !important;
+}
+
+img {
+  border: 1px solid #7253ed;
+  box-shadow: 2px 2px 4px #7253ed;
 }
 
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 #title-sitename {

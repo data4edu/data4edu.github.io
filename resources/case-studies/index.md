@@ -12,6 +12,6 @@ Below you will find some case studies that illustrate how data can be used to in
 
 {% for page in site.pages %}
   {% if page.categories contains 'case-study' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.url}}{{page.url}}) – {{page.lede}}
   {% endif %}
 {% endfor %}

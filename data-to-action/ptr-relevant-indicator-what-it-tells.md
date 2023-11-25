@@ -20,4 +20,5 @@ One, are PTR norms fulfilled by category? For instance, if there are 100 student
 
 Second, the issue of multi-grade teaching is a challenge. For instance, the school may have 8 grades with 150 students overall and 6 teachers. Therefore, the PTR is 25, meeting the norm. But each grade may not have a teacher, and students from multiple grades may have to sit in the same classroom, which may not be ideal. Therefore, it is also important to assess the teacher-grade ratio. That is, does every grade have a teacher or not. 
 
-Read [What useful information can I learn from PTR data?](useful-info-learn-ptr-data) for more.
+{: .note }
+Read [What useful information can I learn from PTR data?](/data-to-action/useful-info-learn-ptr-data) for more.
