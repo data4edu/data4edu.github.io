@@ -1,5 +1,6 @@
 ---
 title: Planning and Monitoring
+description: Questions related to Planning and Monitoring with a focus on leveraging data for effective decision-making, resource allocation, and continuous improvement.
 layout: default
 has_toc: false
 has_children: false

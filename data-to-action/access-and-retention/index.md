@@ -1,5 +1,6 @@
 ---
 title: Access and Retention
+description: Questions related to Access and Retention with a focus on understanding and ensuring access to education while addressing issues related to student retention.
 layout: default
 has_toc: false
 has_children: false

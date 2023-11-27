@@ -1,5 +1,6 @@
 ---
 title: Resources
+description: A set of resources to help you understand the principles and history of data systems for education and how to use data effectively through case studies and checklists.
 layout: default
 nav_order: 3
 has_children: true

@@ -1,5 +1,6 @@
 ---
 title: About
+description: About this website and the people behind it.
 layout: about
 ---
 

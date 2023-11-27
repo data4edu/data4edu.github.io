@@ -1,5 +1,6 @@
 ---
 title: Collaborate
+description: Collaborate with us to make this website more useful for everyone.
 layout: about
 ---
 

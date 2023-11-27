@@ -1,5 +1,6 @@
 ---
 title: Home
+description: A comprehensive guide for navigating the complexities of the Indian education landscape.
 layout: home
 nav_order: 1
 search_exclude: true

@@ -1,5 +1,6 @@
 ---
 title: State level
+description: Questions relevant at the State level with a focus on overarching policies, resource allocation, and strategic planning for education at a broader administrative scale.
 layout: default
 has_toc: false
 has_children: false

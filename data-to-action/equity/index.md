@@ -1,5 +1,6 @@
 ---
 title: Equity
+description: Questions related to Equity with a focus on understanding and addressing issues related to equity in education.
 layout: default
 has_toc: false
 has_children: false

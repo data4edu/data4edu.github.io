@@ -1,5 +1,6 @@
 ---
 title: District or Sub-district level
+description: Questions relevant at the District or Sub-district level with a focus on tailoring strategies to meet the unique challenges and characteristics of individual districts or sub-districts.
 layout: default
 has_toc: false
 has_children: false

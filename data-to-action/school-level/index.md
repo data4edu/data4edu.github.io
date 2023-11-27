@@ -1,5 +1,6 @@
 ---
 title: School level
+description: Questions related to School level with a focus on improving the quality of education and learning outcomes.
 layout: default
 has_toc: false
 has_children: false

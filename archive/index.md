@@ -1,5 +1,6 @@
 ---
 title: Archive
+description: A list of all the pages on the site.
 layout: default
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Quality
+description: Questions related to Quality with a focus on improving the quality of education and learning outcomes.
 layout: default
 has_toc: false
 has_children: false

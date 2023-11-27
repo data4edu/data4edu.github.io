@@ -1,5 +1,6 @@
 ---
 title: Case Studies
+description: A set of case studies that can be used to understand how data is used different education quality improvement programmes in India.
 layout: default
 parent: Resources
 has_children: true

@@ -1,5 +1,6 @@
 ---
 title: Checklists
+description: A set of checklists to help you navigate your data journey.
 layout: default
 parent: Resources
 has_children: true
