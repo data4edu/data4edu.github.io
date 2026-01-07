@@ -142,7 +142,7 @@ Since different agencies/organisations collect such data, it is important to und
 
 ## Financial
 ### Project Approval Board (PAB) Minutes
-[Click here to visit the PAB Minutes website]
+[Click here to visit the PAB Minutes website](https://dsel.education.gov.in/pab-minutes)
 
 The Project Approval Board (PAB) is the apex body for approving the Annual Work Plan & Budget (AWP&B) of all states, union territories, and national institutions (such as NCERT, TSG) for the next financial year. The PAB meets once a year, usually between February to April, after the Union Budget has been announced. For states and UTs, the PAB reviews the progress of activities under Samagra Shiksha and approves the AWP&B along with certain recommendations.
 

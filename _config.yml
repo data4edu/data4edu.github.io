@@ -3,7 +3,7 @@ description: A guide to designing and implementing better data systems for educa
 theme: just-the-docs
 lang: en_IN
 logo: /assets/images/D4ES.png
-url: https://data4edu.systems
+url: https://data4edu.github.io
 repository: data4edu/data4edu.github.io
 permalink: pretty
 markdown: kramdown
