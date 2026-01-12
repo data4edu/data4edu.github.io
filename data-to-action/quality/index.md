@@ -16,20 +16,20 @@ Quality in education is the central concern of this category, examining factors 
 ## State level
 {% for page in site.pages %}
   {% if page.categories contains 'quality' and page.categories contains 'state' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## District, Block or Circle level
 {% for page in site.pages %}
   {% if page.categories contains 'quality' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## School level
 {% for page in site.pages %}
   {% if page.categories contains 'quality' and page.categories contains 'school' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

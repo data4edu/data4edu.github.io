@@ -16,27 +16,27 @@ Questions tagged for the state level focus on overarching policies, resource all
 ## Access and Retention
 {% for page in site.pages %}
   {% if page.categories contains 'state' and page.categories contains 'access-and-retention' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Equity
 {% for page in site.pages %}
   {% if page.categories contains 'state' and page.categories contains 'equity' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Planning and Monitoring
 {% for page in site.pages %}
   {% if page.categories contains 'state' and page.categories contains 'planning-and-monitoring' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Quality
 {% for page in site.pages %}
   {% if page.categories contains 'state' and page.categories contains 'quality' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

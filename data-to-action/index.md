@@ -31,7 +31,7 @@ If this doesn't convince you, perhaps the following questions will:
 
 {% for page in site.pages %}
   {% if page.categories contains 'general' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 

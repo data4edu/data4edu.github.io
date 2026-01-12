@@ -16,20 +16,20 @@ Planning and monitoring involve the strategic use of data to develop, assess, an
 ## State level
 {% for page in site.pages %}
   {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'state' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## District, Block or Circle level
 {% for page in site.pages %}
   {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## School level
 {% for page in site.pages %}
   {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'school' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

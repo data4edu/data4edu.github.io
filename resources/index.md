@@ -21,7 +21,7 @@ A set of case studies that can be used to understand how data is used different 
 
 {% for page in site.pages %}
   {% if page.categories contains 'case-study' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}}) – {{page.lede}}
+  -  [{{page.description}}]({{site.permurl}}{{page.url}}) – {{page.lede}}
   {% endif %}
 {% endfor %}
 
@@ -30,7 +30,7 @@ A set of checklists to help you navigate your data journey.
 
 {% for page in site.pages %}
   {% if page.categories contains 'checklist' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}}) – {{page.lede}}
+  -  [{{page.description}}]({{site.permurl}}{{page.url}}) – {{page.lede}}
   {% endif %}
 {% endfor %}
 

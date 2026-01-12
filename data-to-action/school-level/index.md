@@ -16,27 +16,27 @@ Questions under the school tag are designed for stakeholders at the individual s
 ## Access and Retention
 {% for page in site.pages %}
   {% if page.categories contains 'school' and page.categories contains 'access-and-retention' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Equity
 {% for page in site.pages %}
   {% if page.categories contains 'school' and page.categories contains 'equity' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Planning and Monitoring
 {% for page in site.pages %}
   {% if page.categories contains 'school' and page.categories contains 'planning-and-monitoring' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Quality
 {% for page in site.pages %}
   {% if page.categories contains 'school' and page.categories contains 'quality' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

@@ -9,7 +9,7 @@ layout: default
 ### Resources
 {% for page in site.pages %}
   {% if page.categories contains 'resource' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
@@ -27,6 +27,6 @@ layout: default
 ### Data to Action - Questions
 {% for page in site.pages %}
   {% if page.categories contains 'data-to-action' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

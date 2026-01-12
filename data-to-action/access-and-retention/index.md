@@ -15,20 +15,20 @@ This category focuses on understanding and ensuring access to education while ad
 ## State level
 {% for page in site.pages %}
   {% if page.categories contains 'access-and-retention' and page.categories contains 'state' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## District, Block or Circle level
 {% for page in site.pages %}
   {% if page.categories contains 'access-and-retention' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## School level
 {% for page in site.pages %}
   {% if page.categories contains 'access-and-retention' and page.categories contains 'school' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}

@@ -13,6 +13,6 @@ So you are going to build a data system for education? Here are some checklists 
 
 {% for page in site.pages %}
   {% if page.categories contains 'checklist' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}}) – {{page.lede}}
+  -  [{{page.description}}]({{site.permurl}}{{page.url}}) – {{page.lede}}
   {% endif %}
 {% endfor %}

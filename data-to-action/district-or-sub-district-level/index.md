@@ -16,27 +16,27 @@ Tagged questions for the district, block or cluster level are tailored to the ne
 ## Access and Retention
 {% for page in site.pages %}
   {% if page.categories contains 'access-and-retention' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Equity
 {% for page in site.pages %}
   {% if page.categories contains 'equity' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Planning and Monitoring
 {% for page in site.pages %}
   {% if page.categories contains 'planning-and-monitoring' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
 
 ## Quality
 {% for page in site.pages %}
   {% if page.categories contains 'quality' and page.categories contains 'district' or page.categories contains 'block' %}
-  -  [{{page.description}}]({{site.url}}{{page.url}})
+  -  [{{page.description}}]({{site.permurl}}{{page.url}})
   {% endif %}
 {% endfor %}
